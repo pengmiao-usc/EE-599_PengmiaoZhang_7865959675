@@ -21,7 +21,7 @@
 
 
 module network#(
-    parameter BITWIDTH = 64,
+    parameter BITWIDTH = 18,
     parameter INPUT_DIM = 48)
     (
     input clk,
@@ -43,8 +43,8 @@ module network#(
     wire   [LAYER_BITWIDTH-1:0]  wEm_out1;
     
     
-    weightRAM  #(EM_DIM,  1, BITWIDTH)  WRAM_Em_0 (0, 0, 0, clk, reset, wZX_in, wEm_out0);
-    weightRAM  #(EM_DIM,  1, BITWIDTH)  WRAM_Em_1 (0, 0, 0, clk, reset, wZX_in, wEm_out1);
+    weightRAM  #(EM_DIM,  1, BITWIDTH)  WRAM_Em_0 (2'b0, 0, 0, clk, reset, wZX_in, wEm_out0);
+    weightRAM  #(EM_DIM,  1, BITWIDTH)  WRAM_Em_1 (2'b0, 0, 0, clk, reset, wZX_in, wEm_out1);
     
     embedding #(
     .BITWIDTH(BITWIDTH),.INPUT_DIM(INPUT_DIM),.EM_IN(EM_IN),.EM_DIM(EM_DIM))
@@ -55,6 +55,10 @@ module network#(
     .embedding_input(network_input),
     .Em_out(network_output)
     );
+    
+    
+    
+    
     
    
      
