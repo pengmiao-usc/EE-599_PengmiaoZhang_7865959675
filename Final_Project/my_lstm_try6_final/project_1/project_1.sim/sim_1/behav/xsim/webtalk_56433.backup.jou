@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May  7 20:44:27 2020
+# Process ID: 56433
+# Current directory: /home/pengmiao/vivado/599_project/my_lstm_try5_emb_dense/project_1/project_1.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/pengmiao/vivado/599_project/my_lstm_try5_emb_dense/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_network_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/pengmiao/vivado/599_project/my_lstm_try5_emb_dense/project_1/project_1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/pengmiao/vivado/599_project/my_lstm_try5_emb_dense/project_1/project_1.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/pengmiao/vivado/599_project/my_lstm_try5_emb_dense/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_network_behav/webtalk/xsim_webtalk.tcl -notrace

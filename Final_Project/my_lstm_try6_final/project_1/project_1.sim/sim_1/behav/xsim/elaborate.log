@@ -1,0 +1,28 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/xilinx/SDx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 7c8d69c47db34628bbb988fe04dd87cf --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_network_behav xil_defaultlib.tb_network xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'addressOut' [/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/embedding.v:73]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.weightRAM(NROW=8,NCOL=2)
+Compiling module xil_defaultlib.embedding(INPUT_SZ=8,HIDDEN_SZ=3...
+Compiling module xil_defaultlib.dot_prod(NROW=32,NCOL=8,DSP48_PE...
+Compiling module xil_defaultlib.dot_prod(NROW=32,NCOL=32,DSP48_P...
+Compiling module xil_defaultlib.gate(INPUT_SZ=8,HIDDEN_SZ=32,DSP...
+Compiling module xil_defaultlib.weightRAM(NROW=32,NCOL=8)
+Compiling module xil_defaultlib.weightRAM(NROW=32,NCOL=32)
+Compiling module xil_defaultlib.sigmoid_default
+Compiling module xil_defaultlib.tanh_default
+Compiling module xil_defaultlib.lstm(INPUT_SZ=8,HIDDEN_SZ=32,DSP...
+Compiling module xil_defaultlib.Multiplier
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.MulandAddTree(N=32)
+Compiling module xil_defaultlib.dense(INPUT_SZ=8)
+Compiling module xil_defaultlib.network(DSP48_PER_ROW_G=2,DSP48_...
+Compiling module xil_defaultlib.tb_network
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_network_behav

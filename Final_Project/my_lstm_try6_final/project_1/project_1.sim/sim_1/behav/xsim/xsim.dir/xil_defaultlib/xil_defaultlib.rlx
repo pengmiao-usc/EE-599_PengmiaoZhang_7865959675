@@ -1,0 +1,18 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/dot_prod.v,1589001567,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/embedding.v,,dot_prod,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/gate.v,1589001567,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/lstm.v,,gate,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/network.v,1589072848,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/sigmoid.v,,network,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1589001556,verilog,,,,glbl,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/Adder.v,1589001548,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/MulandAddTree.v,,Adder,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/MulandAddTree.v,1589001548,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/Multiplier.v,,MulandAddTree,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/Multiplier.v,1589001548,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/dense.v,,Multiplier,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/dense.v,1589001548,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/dot_prod.v,,dense,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/embedding.v,1589001548,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/gate.v,,embedding,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/project_1/project_1.srcs/sources_1/new/lstm.v,1589002114,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/network.v,,lstm,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/sigmoid.v,1589001548,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/tanh.v,,sigmoid,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/tanh.v,1589001548,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/weightRAM.v,,tanh,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/tb_network.v,1589028604,verilog,,,,tb_network,,,,,,,,
+/home/pengmiao/vivado/599_project/my_lstm_try6_final/weightRAM.v,1589001547,verilog,,/home/pengmiao/vivado/599_project/my_lstm_try6_final/tb_network.v,,weightRAM,,,,,,,,

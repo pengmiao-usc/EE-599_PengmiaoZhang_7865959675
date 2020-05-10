@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/Adder.v" \
+"../../../../project_1.srcs/sources_1/new/MulandAddTree.v" \
+"../../../../project_1.srcs/sources_1/new/Multiplier.v" \
+"../../../../project_1.srcs/sources_1/new/dense.v" \
+"../../../../../dot_prod.v" \
+"../../../../project_1.srcs/sources_1/new/embedding.v" \
+"../../../../../gate.v" \
+"../../../../project_1.srcs/sources_1/new/lstm.v" \
+"../../../../../network.v" \
+"../../../../../sigmoid.v" \
+"../../../../../tanh.v" \
+"../../../../../weightRAM.v" \
+"../../../../../tb_network.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
